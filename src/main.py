@@ -16,11 +16,11 @@ s.keep_alive = False # 关闭多余连接
 
 header = { # 请更改cookie
     'user-agent' : 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4501.0 Safari/537.36 Edg/92.0.891.1',
-    'cookie' : 'wengine_vpn_ticketwebvpn_jsu_edu_cn=ddf59d5e95556bfc; show_vpn=1; refresh=1'
+    'cookie' : 'wengine_vpn_ticketwebvpn_jsu_edu_cn=xxxxxxxxxx; show_vpn=1; refresh=1'
 }
 
 # 请更改url
-r = rq.get('https://webvpn.jsu.edu.cn/https/77726476706e69737468656265737421fae05988693a7b45300d8db9d6562d/jsxsd/kscj/cjcx_list', headers = header, verify=False)
+r = rq.get('https://webvpn.jsu.edu.cn/https/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/jsxsd/kscj/cjcx_list', headers = header, verify=False)
 
 soup = BS(r.text,'html.parser')
 
