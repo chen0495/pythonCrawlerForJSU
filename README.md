@@ -13,7 +13,7 @@ python简单爬虫,爬取吉首大学成绩单
 1. 登陆学校成绩单查询网站,修改cookie.  
 ![修改cookie](https://cdn.jsdelivr.net/gh/chen0495/newpicgo/img/20210529162841.png)  
 
-2. 按F12后按Ctrl+R刷新一下,获取cookie的方法见下图:  
+2. **按F12后按Ctrl+R刷新一下**,获取cookie的方法见下图:  
 ![获取cookie](https://cdn.jsdelivr.net/gh/chen0495/newpicgo/img/20210529163144.png)  
 
 3. 修改爬虫url为自己的成绩单网址.  
