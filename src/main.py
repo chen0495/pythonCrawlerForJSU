@@ -48,4 +48,4 @@ data = pd.DataFrame(context,columns=head)
 print(data)
 
 # 生成文件,亲更改文件名
-data.to_csv('./CWL_2018403667.csv',encoding='utf-8-sig')
+data.to_csv('../result/result.csv',encoding='utf-8-sig')
